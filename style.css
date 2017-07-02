@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,400,400i,700');
+
+body {
+	font-family: 'Muli', 'sans-serif';
+	color: #595959;
+	background-color: #e6fff2;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main {
+	padding-top: 25vh;
+}
+
+header h1 {
+	font-weight: bold;
+	text-shadow: 4px 4px 8px #cccccc;
+}
+
+h2.quote {
+	font-weight: 400;
+	font-style: italic;
+}
+
+h3.author {
+	font-weight: 200;
+}
+
+button.trigger,
+.tweet {
+	color: #595959;
+	text-decoration: none;
+	font-family: 'Muli', 'sans-serif';
+	font-size: 12px;
+	padding: 10px;
+	border-color: #595959;
+	border-width: 1px;
+	border-radius: 5%;
+	background-color: #e6fff2;
+	box-shadow: 4px 4px 8px #cccccc;
+	margin: 8px;
+}
+
+button.trigger:hover,
+.tweet:hover {
+	background-color: #ccffe6;
+	cursor: pointer;
+}
