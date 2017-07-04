@@ -27,6 +27,14 @@ h3.author {
 	font-weight: 200;
 }
 
+a.tweet,
+button.trigger {
+	border-style: solid;
+	border-color: #595959;
+	border-width: 1px;
+	border-radius: 5%;
+}
+
 button.trigger,
 .tweet {
 	color: #595959;
@@ -34,9 +42,6 @@ button.trigger,
 	font-family: 'Muli', 'sans-serif';
 	font-size: 12px;
 	padding: 10px;
-	border-color: #595959;
-	border-width: 1px;
-	border-radius: 5%;
 	background-color: #e6fff2;
 	box-shadow: 4px 4px 8px #cccccc;
 	margin: 8px;

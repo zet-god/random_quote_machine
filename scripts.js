@@ -21,8 +21,7 @@ function createTweet(input) {
 
 	if (tweetText.length > 140) {
 		getQuote();
-	}
-	else {
+	} else {
 		var tweet = tweetlink + encodeURIComponent(tweetText);
 		$('.quote').text(quoteText);
 		$('.author').text("Author: " + quoteAuthor);
